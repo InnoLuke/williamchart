@@ -25,7 +25,7 @@ android {
         applicationId "com.db.williamchartdemo"
         minSdkVersion rootProject.minSdkVersion
         targetSdkVersion rootProject.targetSdkVersion
-        versionCode 20
+        versionCode 21
         versionName rootProject.williamchartVersion
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
