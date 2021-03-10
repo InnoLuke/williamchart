@@ -1,1 +1,4 @@
-include ':mobile', ':williamchart', ':slidertooltip', ':pointstooltip'
+include ':williamchart', ':slidertooltip', ':pointstooltip'
+
+if (!System.env.JITPACK)
+    include ':mobile'
